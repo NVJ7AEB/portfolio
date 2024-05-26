@@ -8,7 +8,7 @@
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Portfolio website complete</title>
     </head>
     <body>
@@ -16,13 +16,14 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Marlon</a>
+                    <a href="#" class="nav__logo home__title-color">{.Ndifon.}</a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
@@ -39,9 +40,9 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Marlon</span><br> Web Designer</h1>
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Ndifon</span><br> Web Designer</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <a href="#" class="button">Hire Me!</a>
                 </div>
 
                 <div class="home__social">
@@ -63,6 +64,7 @@
                 </div>
             </section>
 
+            
             <!--===== ABOUT =====-->
             <section class="about section " id="about">
                 <h2 class="section-title">About</h2>
@@ -79,6 +81,32 @@
                 </div>
             </section>
 
+            <!--===== SERVICES =====-->
+            <h2 class="section-title" id="services">My Services</h2>
+
+            <div class="services">
+                <div class="services__card">
+                    <p class="services__card-number">01</p>
+                    <p class="services__card-name">Web Developement</p>
+                    <p class="services__card-icon"><i class="fa fa-check" aria-hidden="true"></i></p>
+                </div>
+                <div class="services__card">
+                    <p class="services__card-number">02</p>
+                    <p class="services__card-name">Mobile App Developement</p>
+                    <p class="services__card-icon"><i class="fa fa-check" aria-hidden="true"></i></p>
+                </div>
+              
+                <div class="services__card">
+                    <p class="services__card-number">04</p>
+                    <p class="services__card-name">Database Administrator</p>
+                    <p class="services__card-icon"><i class="fa fa-check" aria-hidden="true"></i></p>
+                </div>
+                <div class="services__card">
+                    <p class="services__card-number">03</p>
+                    <p class="services__card-name">Software consultant</p>
+                    <p class="services__card-icon"><i class="fa fa-check" aria-hidden="true"></i></p>
+                </div>
+            </div>
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
@@ -149,22 +177,13 @@
 
                 <div class="work__container bd-grid">
                     <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
+                        <img src="assets/img/lmajesty.jpg" alt="">
                     </a>
                     <a href="" class="work__img">
                         <img src="assets/img/work2.jpg" alt="">
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
+                        <img src="assets/img/work3.jpg" alt="" class="photo">
                     </a>
                 </div>
             </section>
@@ -178,7 +197,7 @@
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                        <input type="button" value="Send Message" class="contact__button button">
                     </form>
                 </div>
             </section>
@@ -186,13 +205,13 @@
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            <p class="footer__title">Marlon</p>
+            <p class="footer__title home__title-color">Ndifon</p>
             <div class="footer__social">
                 <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+            <p class="footer__copy">&#169; NVJ. All rigths reserved</p>
         </footer>
 
 

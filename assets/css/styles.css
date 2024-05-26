@@ -154,6 +154,8 @@ img {
   background-color: var(--first-color);
 }
 .nav__logo {
+  font-size: 2rem;
+  font-weight: 800;
   color: var(--second-color);
 }
 .nav__toggle {
@@ -227,7 +229,7 @@ img {
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
-  border-radius: 0.5rem;
+  border-radius: 5rem;
   transition: 0.3s;
 }
 .button:hover {
@@ -306,6 +308,39 @@ img {
   border-radius: 0.5rem;
 }
 
+/* ========Services======== */
+.services{
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+  .services__card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .services__card-number{
+    font-size: 1rem;
+    font-weight: 900;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: var(--first-color);
+  }
+.services__card-name{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.services__card-icon{
+  color: var(--first-color);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+  
+
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
@@ -314,6 +349,9 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+}
+.photo{
+  object-fit: contain;
 }
 .work__img img {
   transition: 1s;
@@ -415,6 +453,26 @@ img {
   .contact__container {
     justify-items: center;
   }
+  .services__card-number{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: var(--first-color);
+  }
+.services__card-name{
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* margin-right: auto; */
+  /* margin-left: 3rem; */
+}
+.services__card-icon{
+  color: var(--first-color);
+  font-weight: 900;
+  font-size: 2rem;
+}
+
 }
 @media screen and (min-width: 768px) {
   body {
